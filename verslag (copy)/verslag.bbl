@@ -1,0 +1,131 @@
+\begin{thebibliography}{10}
+
+\bibitem{ams}
+{\sc Austin, D.}
+\newblock How {Google} finds your needle in the {W}eb's haystack, 2011.
+\newblock \url{http://www.ams.org/samplings/feature-column/fcarc-pagerank}.
+
+\bibitem{Avrachenkov06asingular}
+{\sc Avrachenkov, K., Litvak, N., and Pham, K.~S.}
+\newblock A singular perturbation approach for choosing {PageRank} damping
+  factor.
+\newblock Tech. rep., 2006.
+
+\bibitem{function}
+{\sc Boldi, P., Santini, M., and Vigna, S.}
+\newblock {PageRank} as a function of the damping factor.
+\newblock In {\em Proceedings of the 14th international conference on World
+  Wide Web\/} (New York, NY, USA, 2005), WWW '05, ACM, pp.~557--566.
+
+\bibitem{Bressan:2009:CDC:1506844.1506853}
+{\sc Bressan, M., and Peserico, E.}
+\newblock Choose the damping, choose the ranking?
+\newblock In {\em Proceedings of the 6th International Workshop on Algorithms
+  and Models for the Web-Graph\/} (Berlin, Heidelberg, 2009), WAW '09,
+  Springer-Verlag, pp.~76--89.
+
+\bibitem{pap}
+{\sc Brin, S., and Page, L.}
+\newblock The anatomy of a large-scale hypertextual web search engine.
+\newblock In {\em Seventh International World-Wide Web Conference (WWW 1998)\/}
+  (1998).
+
+\bibitem{Bryan}
+{\sc Bryan, K., and Leise, T.}
+\newblock The \$25,000,000,000 eigenvector: The linear algebra behind {Google}.
+\newblock {\em SIAM Rev. 48\/} (March 2006), 569--581.
+
+\bibitem{Lee03afast}
+{\sc chi Lee, C.~P.}
+\newblock A fast two-stage algorithm for computing {PageRank} and its
+  extensions.
+\newblock Tech. rep., 2003.
+
+\bibitem{stationary}
+{\sc Golub, G.~H., and Seneta, E.}
+\newblock Computation of the stationary distribution of an infinite {M}arkov
+  matrix.
+\newblock Tech. rep., Stanford, CA, USA, 1973.
+
+\bibitem{personalizations}
+{\sc Haveliwala, T., Kamvar, S., Kamvar, A., and Jeh, G.}
+\newblock An analytical comparison of approaches to personalizing {PageRank}.
+\newblock Tech. rep., 2003.
+
+\bibitem{ilprints750}
+{\sc Haveliwala, T.~H.}
+\newblock Topic-sensitive {PageRank}: A context-sensitive ranking algorithm for
+  web search.
+\newblock Technical Report 2003-29, Stanford InfoLab, 2003.
+
+\bibitem{dangling}
+{\sc Ipsen, I. C.~F., and Selee, T.~M.}
+\newblock {PageRank} computation, with special attention to dangling nodes.
+\newblock {\em SIAM J. Matrix Anal. Appl. 29\/} (December 2007), 1281--1296.
+
+\bibitem{Jeh:2003:SPW:775152.775191}
+{\sc Jeh, G., and Widom, J.}
+\newblock Scaling personalized web search.
+\newblock In {\em Proceedings of the 12th international conference on World
+  Wide Web\/} (New York, NY, USA, 2003), WWW '03, ACM, pp.~271--279.
+
+\bibitem{Kamvar03exploitingthe}
+{\sc Kamvar, S., Haveliwala, T., Manning, C., and Golub, G.}
+\newblock Exploiting the block structure of the web for computing {PageRank}.
+\newblock Tech. rep., 2003.
+
+\bibitem{fiddling}
+{\sc Langville, A.~N., and Meyer, C.~D.}
+\newblock Fiddling with {PageRank}, 2003.
+
+\bibitem{deeper}
+{\sc Langville, A.~N., and Meyer, C.~D.}
+\newblock Deeper inside {PageRank}.
+\newblock {\em Internet Mathematics 1\/} (2004).
+
+\bibitem{Langville:2006:GPB:1146372}
+{\sc Langville, A.~N., and Meyer, C.~D.}
+\newblock {\em Google's PageRank and Beyond: The Science of Search Engine
+  Rankings}.
+\newblock Princeton University Press, Princeton, NJ, USA, 2006.
+
+\bibitem{Matthijs:2011:PWS:1935826.1935840}
+{\sc Matthijs, N., and Radlinski, F.}
+\newblock Personalizing web search using long term browsing history.
+\newblock In {\em Proceedings of the fourth ACM international conference on Web
+  search and data mining\/} (New York, NY, USA, 2011), WSDM '11, ACM,
+  pp.~25--34.
+
+\bibitem{Page1998}
+{\sc Page, L., Brin, S., Motwani, R., and Winograd, T.}
+\newblock The {P}age{R}ank citation ranking: Bringing order to the {W}eb.
+\newblock Tech. rep., Stanford Digital Library Technologies Project, 1998.
+\newblock 17 p.
+
+\bibitem{Stamou:2009:SPT:1499116.1499120}
+{\sc Stamou, S., and Ntoulas, A.}
+\newblock Search personalization through query and page topical analysis.
+\newblock {\em User Modeling and User-Adapted Interaction 19\/} (February
+  2009), 5--33.
+
+\bibitem{thesis}
+{\sc {van Rest}, F.}
+\newblock A mathematical approach to scalable personalized {PageRank}.
+\newblock Master's thesis, Universiteit Leiden, 2009.
+
+\bibitem{Wedig:2006:LAQ:1150402.1150497}
+{\sc Wedig, S., and Madani, O.}
+\newblock A large-scale analysis of query logs for assessing personalization
+  opportunities.
+\newblock In {\em Proceedings of the 12th ACM SIGKDD international conference
+  on Knowledge discovery and data mining\/} (New York, NY, USA, 2006), KDD '06,
+  ACM, pp.~742--747.
+
+\bibitem{math}
+{\sc Wills, R.~S.}
+\newblock {G}oogle’s {PageRank}: {T}he {M}ath {B}ehind the {S}earch {E}ngine,
+  2006.
+\newblock
+  \url{http://www.emba.uvm.edu/~lakobati/AppliedUGMath/other_Google/Wills.pdf}.
+
+\end{thebibliography}

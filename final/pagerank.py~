@@ -1,0 +1,91 @@
+#!/usr/bin/env python
+
+import networkx as nx
+
+def pagerank(G, alpha=0.85, max_iter=100, tol=1e-4):
+    """
+    Compute and return the PageRank in an directed graph (also see networkx documentation).
+    The output is a dictionary mapping the node-id to its PageRank value.
+    Also, the number of iterations to convergence is returned.    
+    """
+    # some precondition checking. (we could also convert undirected to directed.)
+    if not G.is_directed():
+        raise Exception("pagerank() only defined for directed graphs.")
+
+    # to be completely correct we should also remove self-referential nodes,
+    # but let's just ignore this for performancy issues at the moment
+    # and assume the input does not containt self-referential nodes.
+    # G.remove_edges_from(G.selfloop_edges())
+
+    nodes = G.nodes();
+    nb_nodes = len(nodes);
+    
+    try: 
+        # value for nodes without backlinks
+        min_value = (1.0-alpha)/nb_nodes
+        # initialize the PageRank dict with 1/N for all nodes
+        pagerank = dict.fromkeys(nodes, 1.0/nb_nodes)
+    except ZeroDivisionError:
+        # the graph obviously must have nodes
+        return {}
+        
+    # "dangling" nodes, no links out from them; fix them
+    out_degree = G.out_degree()
+    for dangling in (n for n in nodes if out_degree[n]==0.0):
+        for n in nodes:
+            G.add_edge(dangling, n)
+    
+    # create a copy in (right) stochastic form which we will use 
+    # to avoid recalculating the number of outgoing links every time  
+    W = nx.stochastic_graph(G)	
+    
+    # now the iterative algorithm 
+    # (which is basically a version of the power method, 
+    # without using explicit matrix multiplications)
+    i = 0
+    while True: 
+        print "iteration %d:" % i
+        print "pagerank:", pagerank 
+        i += 1
+        # after maximum iterations have been reached, stop
+        if i > max_iter:
+            print "no convergence after %d iterations!" % max_iter
+            break
+        
+        # some helper variables
+        diff = 0 #total difference compared to last iteration
+        new_pagerank = dict.fromkeys(nodes, 0) # the dict where we store our new values
+        
+        # now the pagerank calculations
+        for node in nodes:
+            rank = min_value
+            #print "node", node
+            #print "min value", min_value
+            for referring_page in W.predecessors_iter(node):
+                #print "refered by ", referring_page
+                #print "old value", old_pagerank[referring_page]
+                #print "G out degree", G.out_degree(referring_page)
+                rank += alpha * pagerank[referring_page] * W[referring_page][node]['weight'] # or / G.out_degree(referring_page)
+
+            #print "rank", rank
+            #print ""
+            diff += abs(rank - pagerank[node]) #accumulate the difference
+            new_pagerank[node] = rank
+        
+        
+        pagerank = new_pagerank # our new pagerank
+        #print pagerank
+                
+        #stop if converged
+        if diff < tol:
+            print "converged after %d iterations" % i
+            break
+
+    #normalize PageRank
+    s = 1.0/sum(pagerank.values())
+    for x in pagerank: 
+        pagerank[x] *= s 
+   
+    return pagerank,i
+
+

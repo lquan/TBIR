@@ -1,0 +1,24 @@
+clear;clc
+p =1;
+working = 'sample-tiny.txt'; 
+D = load('matlabtmpfile.txt');
+G = spconvert(D);
+n = size(G,1);
+G = full(G);
+c = sum(G,2);
+
+A = G./repmat(c,1,n);
+(c==0,:) = 1/n;
+
+A = G
+
+
+% 
+% c = sum(G,1);
+% k = find(c~=0);
+% D = sparse(k,k,1./c(k),n,n);
+% e = ones(n,1);
+% I = speye(n,n);
+% x = (I-p*G*D) \ e;
+% x = x/sum(x)
+

@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: verslag.aux
+The style file: acm.bst
+Database file #1: biblio.bib
+Warning--empty institution in Avrachenkov06asingular
+Warning--empty institution in Lee03afast
+Warning--empty institution in stationary
+Warning--empty institution in personalizations
+Warning--empty institution in Kamvar03exploitingthe
+You've used 22 entries,
+            2253 wiz_defined-function locations,
+            660 strings with 7695 characters,
+and the built_in function-call counts, 6674 in all, are:
+= -- 653
+> -- 279
+< -- 1
++ -- 124
+- -- 94
+* -- 454
+:= -- 1097
+add.period$ -- 66
+call.type$ -- 22
+change.case$ -- 118
+chr.to.int$ -- 0
+cite$ -- 27
+duplicate$ -- 278
+empty$ -- 552
+format.name$ -- 94
+if$ -- 1397
+int.to.chr$ -- 0
+int.to.str$ -- 22
+missing$ -- 12
+newline$ -- 113
+num.names$ -- 44
+pop$ -- 129
+preamble$ -- 1
+purify$ -- 91
+quote$ -- 0
+skip$ -- 183
+stack$ -- 0
+substring$ -- 334
+swap$ -- 73
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 86
+warning$ -- 5
+while$ -- 65
+width$ -- 24
+write$ -- 235
+(There were 5 warnings)

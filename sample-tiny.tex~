@@ -1,0 +1,17 @@
+
+\begin{tikzpicture}[>=latex,line join=bevel,]
+%%
+\node (1) at (27bp,178bp) [draw,ellipse] {1};
+  \node (0) at (45bp,234bp) [draw,ellipse] {0};
+  \node (3) at (27bp,66bp) [draw,ellipse] {3};
+  \node (2) at (63bp,122bp) [draw,ellipse] {2};
+  \node (4) at (8bp,10bp) [draw,ellipse] {4};
+  \draw [->] (2) ..controls (52.728bp,106.02bp) and (44.286bp,92.889bp)  .. (3);
+  \draw [->] (0) ..controls (49.47bp,206.18bp) and (55.936bp,165.96bp)  .. (2);
+  \draw [->] (1) ..controls (27bp,150.18bp) and (27bp,109.96bp)  .. (3);
+  \draw [->] (1) ..controls (21.326bp,150.95bp) and (13.381bp,110.48bp)  .. (10bp,76bp) .. controls (8.4948bp,60.646bp) and (8.0194bp,43.196bp)  .. (4);
+  \draw [->] (3) ..controls (21.359bp,49.374bp) and (17.561bp,38.181bp)  .. (4);
+  \draw [->] (0) ..controls (39.682bp,217.45bp) and (36.135bp,206.42bp)  .. (1);
+  \draw [->] (1) ..controls (37.272bp,162.02bp) and (45.714bp,148.89bp)  .. (2);
+%
+\end{tikzpicture}

@@ -1,0 +1,21 @@
+\begin{thebibliography}{PBMW98}
+
+\bibitem[Aus11]{ams}
+David Austin.
+\newblock How google finds your needle in the web's haystack, 2011.
+\newblock \url{http://www.ams.org/samplings/feature-column/fcarc-pagerank}.
+
+\bibitem[BSV05]{function}
+Paolo Boldi, Massimo Santini, and Sebastiano Vigna.
+\newblock Pagerank as a function of the damping factor.
+\newblock In {\em Proceedings of the 14th international conference on World
+  Wide Web}, WWW '05, pages 557--566, New York, NY, USA, 2005. ACM.
+
+\bibitem[PBMW98]{Page1998}
+Lawrence Page, Sergey Brin, Rajeev Motwani, and Terry Winograd.
+\newblock The {P}age{R}ank citation ranking: Bringing order to the {W}eb.
+\newblock Technical report, Stanford Digital Library Technologies Project,
+  1998.
+\newblock 17 p.
+
+\end{thebibliography}

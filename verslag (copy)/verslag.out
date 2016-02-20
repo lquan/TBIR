@@ -1,0 +1,11 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}
+\BOOKMARK [1][-]{section.2}{Calculating PageRank}{}
+\BOOKMARK [2][-]{subsection.2.1}{Using no damping factor}{section.2}
+\BOOKMARK [2][-]{subsection.2.2}{Using a damping factor}{section.2}
+\BOOKMARK [1][-]{section.3}{Damping factor trade-offs}{}
+\BOOKMARK [2][-]{subsection.3.1}{Damping factor value}{section.3}
+\BOOKMARK [2][-]{subsection.3.2}{Experiments}{section.3}
+\BOOKMARK [1][-]{section.4}{Personalisation of PageRank}{}
+\BOOKMARK [2][-]{subsection.4.1}{Topic-Sensitive PageRank}{section.4}
+\BOOKMARK [2][-]{subsection.4.2}{Real-time personalisation}{section.4}
+\BOOKMARK [1][-]{section.5}{Conclusion}{}
